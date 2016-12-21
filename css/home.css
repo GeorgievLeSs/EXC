@@ -1,0 +1,409 @@
+section {
+  padding: 30px  0px;
+  margin-bottom: 30px;
+  position: relative;
+  clear: both;
+}
+
+#top_offers .link {
+  width: 370px;
+  height: 246px;
+}
+#actual_offers  .link {
+  width: 276px;
+  height: 258px;
+}
+#top_offers {
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 1px 3px 6px rgba(0,0,0, 0.3);
+  -moz-box-shadow: 1px 3px 6px rgba(0,0,0, 0.3);
+  box-shadow: 1px 3px 6px rgba(0,0,0, 0.3);
+}
+  #top_offers h2.title,
+  #actual_offers h2.title {
+    color: #888888;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  #carousel_exclusive_hotels article,
+  #top_offers .small_banner,
+  #actual_offers article {
+    width: 370px;
+    height: 246px;
+    position: relative;
+    margin-right: 32px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 3px 6px rgba(0,0,0, 0.3);
+    -moz-box-shadow: 1px 3px 6px rgba(0,0,0, 0.3);
+    box-shadow: 1px 3px 6px rgba(0,0,0, 0.3);
+  }
+    .banner_image {
+      width: 370px;
+      height: 246px;
+    }
+    #carousel_exclusive_hotels article .title,
+    #top_offers .info_box .title,
+    #actual_offers article .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #000000;
+      padding: 16px 18px;
+      line-height: 18px;
+      width: 370px;
+      height: 66px;
+      background-color: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+    #top_offers .marker {
+      position: absolute;
+      top: 14px;
+      right: -8px;
+    }
+      #top_offers .marker,
+      #top_offers .marker_img {
+        width: 152px;
+        height: 54px;
+      }
+      #top_offers .marker .title {
+        margin-top: -56px;
+        text-align: center;
+        font-size: 18px;
+        color: #8b1515;
+        text-transform: uppercase;
+      }
+  .end_top_offers {
+    text-align: center;
+    padding: 15px 0px 5px;
+  }
+    .end_top_offers h3 {
+      margin: 15px 0px;
+    }
+    .end_top_offers p {
+      color: #8d8d8d;
+    }
+#actual_offers .box_big .link,
+#actual_offers .box_big {
+  width: 576px;
+  height: 258px;
+  margin-right: 20px;
+}
+#carousel_exclusive_hotels .box_big  .link,
+#carousel_exclusive_hotels .box_big {
+  width: 384px;
+  height: 258px;
+  margin-right: 20px;
+}
+#carousel_exclusive_hotels .box_big img.offer_image_big,
+#actual_offers .box_big img.offer_image_big {
+  width: 576px;
+  height: 258px;
+}
+  #carousel_exclusive_hotels .marker,
+  #actual_offers .marker {
+    width: 75px;
+    height: 55px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+  }
+    #carousel_exclusive_hotels .reccommended,
+    #actual_offers .reccommended {
+      top: 12px;
+      right: -18px;
+    }
+    #carousel_exclusive_hotels .text_marker_reccommended,
+    #actual_offers .text_marker_reccommended {
+      font-size: 14px;
+      font-weight: 300;
+      color: #ffffff;
+      line-height: 26px;
+      padding-left: 24px;
+      background-color: #f6a935;
+      width: 100%;
+      position: absolute;
+      top: -18px;
+      left: 0px;
+    }
+    #carousel_exclusive_hotels .exclusive,
+    #actual_offers .exclusive {
+      top: 1px;
+      left: 30px;
+    }
+#actual_offers .box_big .title {
+  width: 576px;
+  padding: 12px 18px;
+  text-transform: uppercase;
+}
+#actual_offers .box {
+  width: 276px;
+  height: 258px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#actual_offers .box img.offer_image {
+  width: 276px;
+  height: 258px;
+}
+#actual_offers .box .title {
+  width: 276px;
+  padding: 12px 18px;
+  text-transform: uppercase;
+}
+#actual_offers article li {
+  width: 65%;
+  float: left;
+  padding: 0px;
+  margin-right: 5%;
+
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+}
+#actual_offers .box_big .title {
+  line-height: 47px;
+}
+  #actual_offers li.price {
+    width: 30%;
+    color: #8b1515;
+    text-align: right;
+    text-transform: lowercase;
+    margin-right: 0px;
+  }
+.details_trip {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  text-transform: lowercase;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #ffffff;
+  width: 100%;
+  display: none;
+}
+
+#banners {
+  background-color: #8b1515;
+}
+  #banners article {
+    color: #ffffff;
+    width: 574px;
+    height: 306px;
+    display: inline-block;
+    background-color: #ffffff;
+  }
+    #banners h3.title {
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 50px;
+      padding-left: 26px;
+      background-color: #f6a935;
+    }
+      .fa-suitcase {
+        padding-right: 4px;
+        font-size: 16px;
+      }
+      .hotel_icon {
+        width: 25px;
+        height: 25px;
+        margin-bottom: -6px;
+      }
+    #banners figure,
+    #banners figure img {
+      width: 284px;
+      height: 256px;
+      position: relative;
+      display: inline-block;
+    }
+      #banners figure .title {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #8b1515;
+        padding: 16px;
+        background: url("images/bgs/reccomm-offers-image-mask.png") repeat-x;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+      }
+    #banners ul{
+      padding: 0px 16px;
+      width: 289px;
+      height: 256px;
+      float: right;
+    }
+      #banners li {
+        position: relative;
+        height: 43px;
+        border-bottom: 1px solid #d5d5d5;
+      }
+        #banners .hotel {
+          text-transform: uppercase;
+        }
+        #banners a .fa-star {
+          font-size: 10px;
+          letter-spacing: -2px;
+          color: #a5a5a5;
+        }
+        #banners li a {
+          font-weight: 600;
+          color: #000000;
+          display: block;
+          width: 290px;
+          height: 42px;
+          padding: 14px 12px 10px 27px;
+          position: absolute;
+          top: -1px;
+          left: -17px;
+          background: url("images/arrows/reccomm-offers-arr.png") no-repeat center right 8px;
+        }
+        #banners .banner_box_hotels li a {
+          padding: 6px 12px 10px 27px;
+        }
+        #banners li .price {
+          font-weight: bold;
+          color: #8b1515;
+          float: right;
+          margin-right: 10px;
+        }
+          #banners li .price strong {
+            font-size: 20px;
+          }
+          #banners li.last_link,
+          #banners .banner_box_hotels .last_link a {
+            border: 0px none;
+            padding: 14px 12px 10px 27px;
+          }
+            #banners .last_link a,
+            #banners .banner_box_hotels .last_link a {
+              padding-left: 128px;
+              background: none;
+            }
+              /*#banners .last_link a {
+                padding-left: 128px;
+                background: none;
+              }*/
+            #banners li.last_link img{
+              padding-left: 5px;
+            }
+
+          /*Hovers Banners*/
+
+          #banners li a:hover,
+          #banners .banner_box_hotels .last_link a:hover {
+            color: #ffffff;
+            text-decoration: none;
+            background-color: #8b1515;
+          }
+          #banners li a:hover span,
+          #banners li a:hover .fa-star {
+            color: #ffffff;
+          }
+
+.header_carosel_hotels {
+  margin-top: -60px;
+}
+  .header_carosel_hotels img,
+  .header_carosel_hotels h2,
+  .header_carosel_hotels p {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+  }
+  .header_carosel_hotels h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: -2px;
+    color: #8b1515;
+    line-height: 80px;
+    margin-bottom: 30px;
+  }
+  .header_carosel_hotels p {
+    width: 800px;
+    padding: 26px 0px;
+    float: right;
+  }
+#carousel_exclusive_hotels article .title {
+  color: #8b1515;
+  width: 100%;
+  height: 72px;
+  padding: 5px 13px;
+}
+  #carousel_exclusive_hotels .hotel_stars .fa-star {
+    letter-spacing: -2px;
+    font-size: 12px;
+  }
+  #carousel_exclusive_hotels .hotel_name {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  #carousel_exclusive_hotels .hotel_location {
+    font-weight: 100;
+    letter-spacing: 0px;
+  }
+#prev_hotels,
+#next_hotels {
+  width: 27px;
+  height: 42px;
+  position: absolute;
+  bottom: 90px;
+}
+#prev_hotels {
+  left: -40px;
+  background-image: url("images/arrows/exclusive-arr-left.png");
+}
+#next_hotels {
+  right: -40px;
+  background-image: url("images/arrows/exclusive-arr-right.png");
+}
+/*Hovers for Actual and Top Offers*/
+#top_offers article:hover .info_box .title,
+#top_offers article:active .info_box .title,
+#actual_offers article:hover .title,
+#actual_offers article:active .title,
+#carousel_exclusive_hotels article:hover .title,
+#carousel_exclusive_hotels article:active .title {
+  color: #ffffff;
+  background-color: rgba(144,22,33,0.8);
+  text-decoration: none;
+}
+#actual_offers article:hover .price,
+#actual_offers article:active .price {
+  color: #ffffff;
+}
+#actual_offers .box_big:hover .title,
+#actual_offers .box_big:active .title {
+  height: 98px;
+  line-height: 20px;
+}
+#actual_offers .box_big:hover .title ul,
+#actual_offers .box_big:active .title ul {
+  padding-top: 10px;
+}
+/*#actual_offers article:hover .title {
+  height: 88px;
+  line-height: 20px;
+}*/
+#actual_offers .box:hover .title,
+#actual_offers .box:active .title {
+  height: 104px;
+}
+/*#actual_offers a:hover .details_trip,*/
+#actual_offers article:hover .details_trip {
+  display: inline-block;
+}
+
+/*Carousel Hotels Hover*/
+  #prev_hotels:hover {
+    background-image: url("images/arrows/exclusive-arr-left-a.png");
+  }
+  #next_hotels:hover {
+    background-image: url("images/arrows/exclusive-arr-right-a.png");
+  }

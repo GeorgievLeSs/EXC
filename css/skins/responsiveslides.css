@@ -1,0 +1,150 @@
+#wrappers {
+ float:left;
+ min-width:1140px;
+ width:100%;
+ height:512px;
+ margin-bottom:30px;
+ transition:all 0.4s ease 0s;
+ -moz-transition:all 0.4s ease 0s;
+ -webkit-transition:all 0.4s ease 0s;
+ -o-transition:all 0.4s ease 0s;
+ -ms-transition:all 0.4s ease 0s;
+}
+
+.rslides {
+ margin:0 auto;
+}
+
+.callbacks_container {
+ margin:0 auto;
+ max-width:1920px;
+ min-width:1140px;
+ width:100%;
+}
+
+.callbacks_container p {
+ margin: 0;
+}
+
+.callbacks_container .prev {
+ background:url("/img/banner-123-arrow-left.png") no-repeat;
+ float:left;
+ font-size:0;
+ width:44px;
+ height:64px;
+ left:8px;
+ position:absolute;
+ opacity:0.9;
+ top:216px;
+ z-index:2;
+}
+
+.callbacks_container .prev a {
+ float:left;
+ font-size:0;
+ width:44px;
+ height:64px;
+}
+
+.callbacks_container .next {
+ background: url("/img/banner-123-arrow-right.png") no-repeat;
+ float:right;
+ font-size: 0;
+ width:44px;
+ height:64px;
+ position: absolute;
+ right:8px;
+ opacity:0.9;
+ top:216px;
+ z-index:2;
+}
+
+.callbacks_container .next a {
+ float:right;
+ font-size:0;
+ width:44px;
+ height:64px;
+}
+
+.rslides{
+ background:none repeat;
+ list-style:none outside none;
+ margin: 0;
+ min-width:1140px;
+ overflow:hidden;
+ padding:0;
+ position:relative;
+ width:100%;
+}
+
+.rslides li {
+ background:none repeat;
+ display:none;
+ height:512px;
+ left:0;
+ list-style:none outside none;
+ margin:0;
+ padding:0;
+ position:absolute;
+ top:0;
+ width:100%;
+}
+
+.rslides li:first-child {
+ float:left;
+ display:block;
+ height:512px;
+ position:relative;
+}
+
+.rslides img {
+ border:0 none;
+ display:block;
+ float:left;
+ height:647px;
+ width:100%;
+}
+
+.banner_info{
+ background:rgba(255,255,255,0.8);
+  box-shadow:0 0 3px 0 #555;
+ -moz-box-shadow:0 0 3px 0 #555;
+ -webkit-box-shadow:0 0 3px 0 #555;
+ -o-box-shadow:0 0 3px 0 #555;
+ -ms-box-shadow:0 0 3px 0 #555;
+ position:absolute;
+ top:190px;
+ width:500px;
+ height:78px;
+ padding:20px;
+ left:0;
+}
+
+.banner_title {
+ float:left;
+ width:500px;
+ padding-bottom:13px;
+}
+
+.banner_title a:link, .banner_title a:visited, .banner_title a:hover {
+ font-size:30px;
+ line-height:31px;
+ text-transform:uppercase;
+ color:#02458D;
+}
+
+.banner_line {
+ float:left;
+ background:#02458D;
+ width:500px;
+ height:1px;
+ margin-bottom:13px;
+ opacity:0.2;
+}
+
+.banner_text{
+ float:left;
+ font-size:14px;
+ line-height:15px;
+ color:#02458D;
+}

@@ -1,0 +1,45 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+.float_right{
+  float:right;
+  display:inline-block;
+}
+
+.float_left {
+   float: left;
+   display: inline-block;
+}
+
+.clear {
+  clear:both;
+}
+
+.clear_margin {
+  margin: 0px;
+}
+
+.clear_right_margin {
+  margin-right: 0px!important;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type:none;
+  float: left;
+}
